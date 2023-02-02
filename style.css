@@ -1,0 +1,96 @@
+#logo{
+    color: red;
+    width: 500px;
+    margin-top: 20px;
+}
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about_me{
+    align-self: flex-end;
+    color: red;
+}
+.contact{
+    align-self: flex-end;
+    margin-left: 20px;
+    color: red;
+}
+h3{
+    text-align: center;
+}
+.imageContainer{
+    display: flex;
+    justify-items: stretch;
+}
+.image{
+    width: 31%;
+    padding: 10px;
+}
+.bigImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.firstPart{
+    margin-top: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.mail{
+    padding-left: 40px;
+    padding-top: 20px;
+    color: red;
+}
+.number{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: red;
+}
+.fb_icon{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.ins_icon{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.icons{
+    margin-top: 30px;
+}
+.aboutMe{
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+.submit{
+    border: none;
+    background-color: black;
+    color: red;
+    height: 30px;
+    width: 80px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 160px;
+}
+#name{
+    margin-left: 10px;
+}
+.form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
